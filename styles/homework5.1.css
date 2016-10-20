@@ -1,0 +1,106 @@
+body {
+	max-width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: sans-serif;
+}
+
+input { 
+	border: 1px solid #9932CC; 
+	background-color: #E5E4E2;
+}
+
+textarea {
+	border: 1px solid #9932CC; 
+}
+
+.divbackground {
+	background-color: #9932CC;
+}
+
+.italic {
+	font-style: italic;
+	text-align: right;
+	font-size: 12px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.smallfont {
+	font-size: 10px;
+}
+
+.normalfont {
+	font-size: 14px;
+}
+
+.checkboxstyle {
+	width: 20px;
+	height: 20px;
+	background-color: #9932CC;
+}
+
+.logo {
+	width: 130px;
+	height: 75px;
+}
+
+.textlogo {
+	font-size: 10px;
+	color: #810541;
+}
+
+.title {
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+}
+
+.pddtitle {
+	display: block;
+	text-align: right;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.td {
+	background-color:  #9932CC;
+}
+
+.titleborder {
+	border-bottom: 1px solid #9932CC;
+}
+
+.texttable {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.tablepadding {
+	border-bottom: solid 10px white;
+	border-left: solid 40px white;
+}
+
+.line {
+	border-right: 1px solid #9932CC;
+	padding-right: 18px;
+}
+
+.lastrow {
+	border: 1px solid #9932CC;
+	width: 450px;
+	float: left;
+}
+
+.textareaspec {
+	width: 487px;
+	height: 47px;
+	margin-left: 3px;
+}
+
+.imgtransform {
+	width: 20px;
+	height: 30px;
+}
