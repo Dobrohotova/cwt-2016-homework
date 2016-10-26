@@ -47,6 +47,7 @@ span {
 		background-color: grey;
 		color: black;
 		cursor: pointer;
+		padding: 7px;
 	}
 
 	.navc a {
@@ -196,7 +197,7 @@ span {
 		text-decoration: none;
 		font-family: Verdana, sans-serif;
 		color: #8cd8d4;
-		font-size: 30px;
+		font-size: 25px;
 	}
 
 		.ver3 li:hover {
@@ -229,7 +230,7 @@ span {
 		text-decoration: none;
 		font-family: Verdana, sans-serif;
 		color: #996473;
-		font-size: 30px;
+		font-size: 20px;
 	}
 
 		.ver4 li:hover {
@@ -240,4 +241,35 @@ span {
 
 		.ver4 li a:hover {
 			color: #26010b;
+		}
+
+	.ver5 {
+		margin: 0;
+		padding: 0;
+		width: 300px;
+		list-style: none;
+		
+	}
+
+	.ver5 li {
+		padding: 5px;
+		border-bottom: 2px solid silver;
+		transition: .4s ease-in-out;
+	}
+
+	.ver5 li a {
+		text-decoration: none;
+		font-family: Verdana, sans-serif;
+		color: black;
+		font-size: 30px;
+	}
+
+		.ver5 li:hover {
+			cursor: pointer;
+			background-color: silver;
+			
+		}
+
+		.ver5 li a:hover {
+			color: black;
 		}
