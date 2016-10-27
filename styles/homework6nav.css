@@ -100,13 +100,19 @@ span {
 		float: left;
 		font-size: 30px;
 		font-family: Verdana, sans-serif;
+		border-bottom: 5px solid silver;
 		text-decoration: none;
+		color: black;
+		padding: 10px;
+		transition: .4s ease-in-out;
 	}
 	
 
-#1 {
-
-}
+	.nave a:hover {
+		cursor: pointer;
+		background-color: silver;
+		border-bottom: 5px solid grey;
+	}
 
 
 
