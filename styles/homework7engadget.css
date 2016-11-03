@@ -307,13 +307,28 @@ body {
 		float: left;
 	}
 
+		.drz {
+		
+		}
+
 		.leftfirst {
 			width: calc(100% - 20px);
 			height: 300px;
 			margin: 10px;
 			float: left;
 			background: #b3b3b3;
+			position: relative;
 		}
+	
+			.leftboxmalo {
+				width: 60%;
+				height: 200px;
+				position: absolute;
+				right: 0;
+				bottom: 0;
+				background: #e0e1e2;
+			}
+
 
 		.leftsecond {
 			width: calc(100% - 20px);
