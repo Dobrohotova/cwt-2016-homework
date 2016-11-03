@@ -1,0 +1,398 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.celo {
+	width: 80%;
+	height: 10000px;
+	margin: auto;
+	background: #b3e6cc;
+}
+
+	.header {
+		width: 100%;
+	}
+
+		.firstheader {
+			width: 100%;
+			height: 70px;
+			background: #d9d9d9;
+		}
+
+			.logo {
+				margin: 5px;
+				height: 55px;
+				width: 180px;
+				background: #b3b3b3;
+				float: left;
+			}
+
+			.login {
+				width: 100px;
+				height: 55px;
+				margin: 5px;
+				background: #b3b3b3;
+				display: block;
+				float: right;
+			}
+
+		.secondheader {
+			width: 100%;
+			height: 70px;
+			background: #b3b3b3;
+			display: block;
+		}
+
+	.first {
+		width: 100%;
+	}
+
+	.first > div {
+		float: left;
+	}
+
+	.containone {
+		width: 20%;
+		height: 650px;
+		background: #666666;
+		display: block;
+		/*float: left;*/
+	}
+
+		.containone .heading {
+			width: calc(100% - 20px);
+			height: 40px;
+			background: #4d4d4d;
+			margin: 10px;
+		}
+
+		.containone .one {
+			width: calc(100% - 20px);
+			height: 137px;
+			background: #4d4d4d;
+			margin: 10px;
+		}
+
+		.containone .two {
+			width: calc(100% - 20px);
+			height: 137px;
+			background: #4d4d4d;
+			margin: 10px;
+		}
+
+		.containone .three {
+			width: calc(100% - 20px);
+			height: 137px;
+			background: #4d4d4d;
+			margin: 10px;
+		}
+
+		.containone .four {
+			width: calc(100% - 20px);
+			height: 137px;
+			background: #4d4d4d;
+			margin: 10px;
+		}
+
+	.containtwo {
+		width: 55%;
+		height: 650px;
+		background: #4d4d4d;
+		display: block;
+		/*float: left;*/
+	}
+
+		.containtwo .one .oneone {
+			width: calc(100% - 20px);
+			height: 200px;
+			background: #666666;
+			display: block;
+			margin: 10px 10px 0 10px;
+		}
+	
+		.onetwoone {
+			width: calc(100% - 20px);
+			height: 30px;
+			background: #666666;
+			display: block;
+			margin: 0 10px 0 10px;
+		}
+
+		.onetwotwo {
+			width: calc(100% - 20px);
+			height: 30px;
+			background: #666666;
+			display: block;
+			margin: 0 10px 0 10px;
+		}
+
+		.onetwothree {
+			width: calc(100% - 20px);
+			height: 30px;
+			background: #666666;
+			display: block;
+			margin: 0 10px 10px 10px;
+		}
+	
+	.twoone {
+		width: 50%;
+		height: 300px;
+		float: left;
+	}
+
+		.twooneone {
+			width: calc(100% - 20px);
+			height: 200px;
+			background: #666666;
+			display: block;
+			float: left;
+			margin: 0 10px 0 10px;
+		}
+
+		.twoonetwoone {
+			width: calc(100% - 20px);
+			height: 40px;
+			background: #666666;
+			display: block;
+			float: left;
+			margin: 10px 10px 0 10px;
+		}
+
+		.twoonetwotwo {
+			width: calc(100% - 20px);
+			height: 40px;
+			background: #666666;
+			display: block;
+			float: left;
+			margin: 0 10px 0 10px;
+		}
+
+		.twoonetwothree {
+			width: calc(100% - 20px);
+			height: 40px;
+			background: #666666;
+			display: block;
+			float: left;
+			margin: 0 10px 0 10px;
+		}
+
+	.twotwo {
+		width: 50%;
+		height: 300px;
+		float: left;
+	}
+
+		.twotwoone {
+			width: calc(100% - 20px);
+			height: 200px;
+			background: #666666;
+			display: block;
+			float: left;
+			margin: 0 10px 0 10px;
+		}
+
+		.twotwotwoone {
+			width: calc(100% - 20px);
+			height: 40px;
+			background: #666666;
+			display: block;
+			float: left;
+			margin: 10px 10px 0 10px;
+		}
+
+		.twotwotwotwo {
+			width: calc(100% - 20px);
+			height: 40px;
+			background: #666666;
+			display: block;
+			float: left;
+			margin: 0 10px 0 10px;
+		}
+
+		.twotwotwothree {
+			width: calc(100% - 20px);
+			height: 40px;
+			background: #666666;
+			display: block;
+			float: left;
+			margin: 0 10px 0 10px;
+		}
+
+	.containthree {
+		width: 25%;
+		height: 650px;
+		background: #666666;
+		display: block;
+		/*float: left;*/
+	}
+
+		.o > div {
+			float: left;
+		}
+
+			.oone {
+				width: calc(100% - 20px);
+				height: 150px;
+				background: #4d4d4d;
+				margin: 50px 10px 0 10px;
+			}
+
+			.otwo {
+				width: calc(100% - 20px);
+				height: 20px;
+				background: #4d4d4d;
+				margin: 0 10px 0 10px;
+			}
+
+			.othree {
+				width: calc(100% - 20px);
+				height: 50px;
+				background: #4d4d4d;
+				margin: 0 10px 0 10px;
+			}
+
+			.ofour {
+				width: calc(100% - 20px);
+				height: 20px;
+				background: #4d4d4d;
+				margin: 0 10px 0 10px;
+			}
+
+		.t > div {
+			float: left;
+		}
+
+			.oone {
+				width: calc(100% - 20px);
+				height: 150px;
+				background: #4d4d4d;
+				margin: 50px 10px 0 10px;
+			}
+
+			.otwo {
+				width: calc(100% - 20px);
+				height: 20px;
+				background: #4d4d4d;
+				margin: 0 10px 0 10px;
+			}
+
+			.othree {
+				width: calc(100% - 20px);
+				height: 50px;
+				background: #4d4d4d;
+				margin: 0 10px 0 10px;
+			}
+
+			.ofour {
+				width: calc(100% - 20px);
+				height: 20px;
+				background: #4d4d4d;
+				margin: 0 10px 0 10px;
+			}
+
+	.containertwo h2 {
+		width: 100%;
+		height: auto;
+		margin: 0;
+		padding: 0;
+		background: #b3b3b3;
+		float: left;
+	}
+
+	.left {
+		width: 75%;
+		background: #8c8c8c;
+		height: auto;
+		float: left;
+	}
+
+		.leftfirst {
+			width: calc(100% - 20px);
+			height: 300px;
+			margin: 10px;
+			float: left;
+			background: #b3b3b3;
+		}
+
+		.leftsecond {
+			width: calc(100% - 20px);
+			height: 150px;
+			margin: 10px;
+			float: left;
+			background: #b3b3b3;
+		}
+
+		.lso {
+			width: 10%;
+			height: 120px;
+			margin: 10px;
+			background: #cccccc;
+			float: left;
+		}
+
+		.lstt {
+			width: 30%;
+			height: 120px;
+			margin: 10px;
+			background: #8c8c8c;
+			float: left;
+		}
+
+		.lsttt {
+			width: 50%;
+			height: 20px;
+			margin: 10px 10px 0 10px;
+			background: #8c8c8c;
+			float: left;
+		}
+
+		.lsf {
+			width: 50%;
+			height: 50px;
+			margin: 0 10px 0 10px;
+			background: #8c8c8c;
+			float: left;
+		}
+
+		.lsfi {
+			width: 50%;
+			height: 20px;
+			margin: 0 10px 0 10px;
+			background: #8c8c8c;
+			float: left;
+		}
+
+		.lss {
+			width: 50%;
+			height: 30px;
+			margin: 0 10px 10px 10px;
+			background: #8c8c8c;
+			float: left;
+		}
+
+		.ap {
+			width: 97%;
+			height: 30px;
+			background: #cccccc;
+			float: left;
+			margin: 10px;
+		}
+
+	.desno {
+		width: 25%;
+		background: #737373;
+		height: auto;
+		float: left;
+	}
+
+		.dole {
+			padding-top: 3440px;
+		}
+
+		.bla {
+			width: calc(100% - 20px);
+			height: 40px;
+			margin: 10px;
+			background: #b3b3b3;
+		}
