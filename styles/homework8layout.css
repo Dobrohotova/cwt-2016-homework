@@ -186,7 +186,7 @@ body {
 
 	.rightcontainer {
 		width: 44%;
-		margin: 0 auto;
+		margin: 0;
 		height: auto;
 		float: left;
 	}
@@ -214,9 +214,7 @@ body {
 			background-color: #e4e1d5;
 			text-align: center;
 			border-radius: 7px 7px 0 0;
-			margin-right: 10px;
-
-			
+			margin-right: 10px;	
 		}
 
 			.nav2 a:hover {
@@ -250,9 +248,13 @@ body {
 		border-radius: 0 5px 5px 5px;
 		margin: 0 auto;
 	}
+	
+	.hotel .bigimg {
+		width: 98.5%;
+	}
 
 	.hotel > img {
-		padding: 5px;
+		padding: 5px 0 5px 5px;
 	}
 
 	.inputpolinja {
