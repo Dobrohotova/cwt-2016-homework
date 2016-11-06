@@ -1,0 +1,274 @@
+* {
+	font-family: sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #ba895f;
+	  background: red; /* For browsers that do not support gradients */
+	  background: -webkit-linear-gradient(#ba895f, #eedfaf, #d37057); /* For Safari 5.1 to 6.0 */
+	  background: -o-linear-gradient(#ba895f, #eedfaf, #d37057); /* For Opera 11.1 to 12.0 */
+	  background: -moz-linear-gradient(#ba895f, #eedfaf, #d37057); /* For Firefox 3.6 to 15 */
+	  background: linear-gradient(#ba895f, #eedfaf, #d37057); /* Standard syntax */
+}
+
+.contain {
+	width: 85%;
+	margin: 0 auto;
+	height: auto;
+}
+
+	.h1 {
+		color: white;
+		font-family: sans-serif;
+		font-weight: none;
+		font-size: 56px;
+		text-align: center;
+		margin: 110px 0 0 0;
+	}
+
+	.h3 {
+		margin: 0 0 110px 0;
+		color: white;
+		font-family: sans-serif;
+		font-weight: none;
+		font-size: 26px;
+		text-align: center;
+	}
+
+	.leftcontainer {
+		width: 56%;
+		margin: 0 auto;
+		height: auto;
+		float: left;
+	}
+
+		.nav {
+			width: 98%;
+			list-style: none;
+			margin: 0 auto 0 0;
+			padding: 0;
+		}
+
+		.nav a {
+			width: 16.3333%;
+			display: block;
+			padding: 15px 0;
+			float: left;
+			text-decoration: none;
+			color: black;
+			font-size: 16px;
+			font-family: sans-serif;
+			background-color: white;
+			transition: .4s ease-in-out;
+			text-align: center;
+		}
+
+			.nav a:nth-child(1) {
+				border-top-left-radius: 4px;
+				border-bottom-left-radius: 4px;
+			}
+			
+
+			.nav a:nth-child(6) {
+			    border-top-right-radius: 4px;
+				border-bottom-right-radius: 4px;
+			}
+
+			.nav a:hover {
+				color: #f87b46;
+				background-color: #f2f1ee;
+				border-bottom: 4px solid #f87b46;
+				
+			}
+
+.cleaner {
+	display: block;
+	clear: both;
+}
+
+	.leftone {
+		width: 50%;
+		display: block;
+		float: left;
+	}
+
+		.one {
+			width: calc(100% - 30px);
+			margin: 30px 15px 30px 0;
+			height: 250px;
+			background: white;
+			border-radius: 5px;
+		}
+
+			.one .yellow {
+				width: 100%;
+				height: 30%;
+				background-color: #f4cc54;
+				border-radius: 5px 5px 0 0;
+			}
+
+				.one .yellow img {
+					padding: 15px;
+					float: left;
+					display: block;
+				}
+
+				.one .yellow .dolar {
+					width: calc(100% - 30%);
+					margin: 0;
+					padding: 15px 0 0 0;
+					color: white;
+					font-size: 24px;
+					display: block;
+					float: left;
+				}
+
+				.one .yellow .bond {
+					margin: 0;
+					padding: 0 0 15 0px;
+					color: white;
+					font-size: 12px;
+					display: block;
+					float: left;
+				}
+
+			.one .under1 {
+
+			}
+
+		.two {
+			width: calc(100% - 30px);
+			margin: 30px 15px 30px 0;
+			height: 200px;
+			background: white;
+			border-radius: 5px;
+		}
+
+		.three {
+			width: calc(100% - 30px);
+			margin: 30px 15px 30px 0;
+			height: 450px;
+			background: white;
+			border-radius: 5px;
+		}
+
+	.lefttwo {
+		width: 50%;
+		display: block;
+		float: left;
+	}
+
+		.eden {
+			width: calc(100% - 30px);
+			margin: 30px 15px 30px 0;
+			height: 400px;
+			background: white;
+			border-radius: 5px;
+		}
+
+		.dva {
+			width: calc(100% - 30px);
+			margin: 30px 15px 30px 0;
+			height: 300px;
+			background: white;
+			border-radius: 5px;
+		}
+
+		.tri {
+			width: calc(100% - 30px);
+			margin: 30px 15px 30px 0;
+			height: 200px;
+			background: white;
+			border-radius: 5px;
+		}
+
+	.rightcontainer {
+		width: 44%;
+		margin: 0 auto;
+		height: auto;
+		float: left;
+	}
+
+		.nav2 {
+			width: 100%;
+			list-style: none;
+			margin: 0 auto 0 0;
+			padding: 0;
+
+			position: relative;
+   			display: inline-block;
+		}
+
+		.nav2 a {
+			width: 16%;
+			display: block;
+			padding: 15px 7px;
+			float: left;
+			transition: .4s ease-in-out;
+			text-decoration: none;
+			color: grey;
+			font-size: 16px;
+			font-family: sans-serif;
+			background-color: #e4e1d5;
+			text-align: center;
+			border-radius: 7px 7px 0 0;
+			margin-right: 10px;
+
+			
+		}
+
+			.nav2 a:hover {
+				color: black;
+				background-color: white;		
+			}
+
+		.dropdown-content {
+			margin: 0;
+			padding: 0;
+    		display: none;
+    		position: absolute;
+    		/*border: 5px solid white;*/
+    		background-color: white;
+		}
+
+		.dropdown-content img {
+			padding: 3px;
+		}
+
+		.nav2 a:hover .dropdown-content {
+		    display: block;
+		}
+
+	.hotel {
+		width: 100%;
+		height: auto;
+		background: white;
+		display: block;
+		float: left;
+		border-radius: 0 5px 5px 5px;
+		margin: 0 auto;
+	}
+
+	.hotel > img {
+		padding: 5px;
+	}
+
+	.inputpolinja {
+		margin-top: 30px;
+		width: 100%;
+		height: 300px;
+		background: white;
+		display: block;
+		float: left;
+		border-radius: 5px;
+	}
+
+	input {
+
+	}
+
+	.prvi3 {
+
+	}
